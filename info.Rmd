@@ -1,0 +1,16 @@
+---
+title: "Info Shiny"
+author: "Diego Trujillo"
+date: "September 27, 2018"
+output: html_document
+---
+
+## How to use it.
+
+This Shiny application is part of the Developing Data Products Coursera course project <https://www.coursera.org/learn/data-products/>.
+
+The idea is to make a visualization of the data based in some parameter controls. Choose number of bins to construct a histogram given `Sepal.Length`, `Sepal.Width`, `Petal.Length`, `Petal.Width` and give a title to the histogram. The view will only update if the user hit (click) the 'submit button', otherwise the view will never be updated.
+
+Data is from the _datasets_ library within R. The documentation can be found on internet or just by typping `?iris` inside R console. Here's a brief summary of the documentation: 'This Data set gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris.'
+
+Submitted October 5, 2018.
